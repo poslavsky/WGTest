@@ -9,6 +9,7 @@
         const elem = options.elem;
 
         const clickOnDropdown = (e) => {
+            e.preventDefault();
             if (elem.contains(e.target)) {
                 selectTab(e.target);    
                 toggle();
@@ -16,6 +17,7 @@
         }
 
         const clickOnList = (e) => {
+            e.preventDefault();
             if (elem.contains(e.target)) {
                 selectTab(e.target);    
             }
