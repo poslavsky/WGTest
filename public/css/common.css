@@ -86,7 +86,7 @@ body {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.11), inset 0 2px 6px rgba(0, 0, 0, 0.49);
   border: 1px solid #efefef;
   border-radius: 3px;
-  background: #fbfbfb url(/WGTest/public/img/find@2x.png) 13px center no-repeat;
+  background: #fbfbfb url(/img/find@2x.png) 13px center no-repeat;
   background-size: 16px;
   -webkit-appearance: textfield;
 }
@@ -113,7 +113,7 @@ body {
   transform: translateY(-50%);
   width: 17px;
   height: 17px;
-  background: url(/WGTest/public/img/reset@2x.png) center no-repeat;
+  background: url(/img/reset@2x.png) center no-repeat;
   background-size: 17px;
 }
 .grid .block-search {
@@ -142,7 +142,7 @@ body {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.11), inset 0 2px 6px rgba(0, 0, 0, 0.49);
   border: 1px solid #efefef;
   border-radius: 3px;
-  background: #fbfbfb url(/WGTest/public/img/find@2x.png) 13px center no-repeat;
+  background: #fbfbfb url(/img/find@2x.png) 13px center no-repeat;
   background-size: 16px;
   -webkit-appearance: textfield;
 }
@@ -169,7 +169,7 @@ body {
   transform: translateY(-50%);
   width: 17px;
   height: 17px;
-  background: url(/WGTest/public/img/reset@2x.png) center no-repeat;
+  background: url(/img/reset@2x.png) center no-repeat;
   background-size: 17px;
 }
 .flex .block-search {
@@ -198,7 +198,7 @@ body {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.11), inset 0 2px 6px rgba(0, 0, 0, 0.49);
   border: 1px solid #efefef;
   border-radius: 3px;
-  background: #fbfbfb url(/WGTest/public/img/find@2x.png) 13px center no-repeat;
+  background: #fbfbfb url(/img/find@2x.png) 13px center no-repeat;
   background-size: 16px;
   -webkit-appearance: textfield;
 }
@@ -225,7 +225,7 @@ body {
   transform: translateY(-50%);
   width: 17px;
   height: 17px;
-  background: url(/WGTest/public/img/reset@2x.png) center no-repeat;
+  background: url(/img/reset@2x.png) center no-repeat;
   background-size: 17px;
 }
 .float .block-search {
@@ -252,7 +252,7 @@ body {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.11), inset 0 2px 6px rgba(0, 0, 0, 0.49);
   border: 1px solid #efefef;
   border-radius: 3px;
-  background: #fbfbfb url(/WGTest/public/img/find@2x.png) 13px center no-repeat;
+  background: #fbfbfb url(/img/find@2x.png) 13px center no-repeat;
   background-size: 16px;
   -webkit-appearance: textfield;
 }
@@ -279,7 +279,7 @@ body {
   transform: translateY(-50%);
   width: 17px;
   height: 17px;
-  background: url(/WGTest/public/img/reset@2x.png) center no-repeat;
+  background: url(/img/reset@2x.png) center no-repeat;
   background-size: 17px;
 }
 .float .btn {
@@ -307,7 +307,7 @@ body {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.11), inset 0 2px 6px rgba(0, 0, 0, 0.49);
   border: 1px solid #efefef;
   border-radius: 3px;
-  background: #fbfbfb url(/WGTest/public/img/find@2x.png) 13px center no-repeat;
+  background: #fbfbfb url(/img/find@2x.png) 13px center no-repeat;
   background-size: 16px;
   -webkit-appearance: textfield;
 }
@@ -334,7 +334,7 @@ body {
   transform: translateY(-50%);
   width: 17px;
   height: 17px;
-  background: url(/WGTest/public/img/reset@2x.png) center no-repeat;
+  background: url(/img/reset@2x.png) center no-repeat;
   background-size: 17px;
 }
 .table .block-search {
@@ -361,7 +361,7 @@ body {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.11), inset 0 2px 6px rgba(0, 0, 0, 0.49);
   border: 1px solid #efefef;
   border-radius: 3px;
-  background: #fbfbfb url(/WGTest/public/img/find@2x.png) 13px center no-repeat;
+  background: #fbfbfb url(/img/find@2x.png) 13px center no-repeat;
   background-size: 16px;
   -webkit-appearance: textfield;
 }
@@ -388,7 +388,7 @@ body {
   transform: translateY(-50%);
   width: 17px;
   height: 17px;
-  background: url(/WGTest/public/img/reset@2x.png) center no-repeat;
+  background: url(/img/reset@2x.png) center no-repeat;
   background-size: 17px;
 }
 .tags {
@@ -416,7 +416,7 @@ body {
 }
 @media screen and (max-width: 800px) {
   .tags:hover .tags__item--active {
-    background: url(/WGTest/public/img/arrow@2x.png) 8px center no-repeat;
+    background: url(/img/arrow@2x.png) 8px center no-repeat;
     background-size: 13px 6px;
   }
 }
@@ -442,7 +442,7 @@ body {
     -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.04), 0 0 9px rgba(0, 0, 0, 0.12), inset 0 0 0 2px #ffffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.04), 0 0 9px rgba(0, 0, 0, 0.12), inset 0 0 0 2px #ffffff;
     border: 1px solid rgba(200, 200, 200, 0.85);
-    background: #edeceb url(/WGTest/public/img/bg-pattern.jpg);
+    background: #edeceb url(/img/bg-pattern.jpg);
   }
 }
 .tags__item {
@@ -475,7 +475,7 @@ body {
   .tags__item--active {
     display: block;
     color: #2a2a2a;
-    background: url(/WGTest/public/img/menu@2x.png) 8px center no-repeat;
+    background: url(/img/menu@2x.png) 8px center no-repeat;
     background-size: 12px 10px;
   }
 }
