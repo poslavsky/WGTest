@@ -13,62 +13,63 @@
     <div class="wrapper">
         <div class="grid">
             <h4 class="h4">Grid</h4>
-            <div class="block-search">
+            <form class="block-search" role="search">
                 <div class="field-search">
-                    <input type="search" class="field-search__input" placeholder="почему">
-                    <button class="field-search__reset"></button>
+                    <input type="search" class="field-search__input" placeholder="почему" aria-label="Search through site content" />
+                    <button type="reset" class="field-search__reset"></button>
                 </div>
-                <button class="btn">Найти</button>
-            </div>
+                <button class="btn" type="button">Найти</button>
+            </form>
         </div>
         <div class="flex">
             <h4 class="h4">Flexbox</h4>
             <form class="block-search" role="search">
                 <div class="field-search">
-                    <input type="search" class="field-search__input" placeholder="почему" aria-label="Search through site content">
+                    <input type="search" class="field-search__input" placeholder="почему" aria-label="Search through site content" />
                     <button type="reset" class="field-search__reset"></button>
                 </div>
-                <button class="btn">Найти</button>
+                <button class="btn" type="button">Найти</button>
             </form>
         </div>
         <div class="float">
             <h4 class="h4">Float</h4>
-            <div class="block-search">
-                <button class="btn">Найти</button>
+            <form class="block-search" role="search">
+                <button class="btn" type="button">Найти</button>
                 <div class="field-search">
                     <div class="field-search__inner">
-                        <input type="search" class="field-search__input" placeholder="почему">
-                        <button class="field-search__reset"></button>
+                        <input type="search" class="field-search__input" placeholder="почему" aria-label="Search through site content" />
+                        <button type="reset" class="field-search__reset"></button>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
         <div class="dt">
             <h4 class="h4">CSS table</h4>
-            <div class="block-search">
+            <form class="block-search" role="search">
                 <div class="field-search">
-                    <input type="search" class="field-search__input" placeholder="почему">
-                    <button class="field-search__reset"></button>
+                    <input type="search" class="field-search__input" placeholder="почему" aria-label="Search through site content" />
+                    <button type="reset" class="field-search__reset"></button>
                 </div>
-                <button class="btn">Найти</button>
-            </div>
+                <button class="btn" type="button">Найти</button>
+            </form>
         </div>
         <div class="table">
             <h4 class="h4">HTML table</h4>
+            <form id="form-in-table" role="search"></form>
             <table class="block-search">
                 <tr>
                     <td class="field-search">
-                        <input type="search" class="field-search__input" placeholder="почему">
-                        <button class="field-search__reset"></button>
+                        <input type="search" class="field-search__input" form="form-in-table" placeholder="почему" aria-label="Search through site content" />
+                        <button class="field-search__reset" type="reset" form="form-in-table"></button>
                     </td>
                     <td>
-                        <button class="btn">Найти</button>
+                        <button class="btn" type="button" form="form-in-table">Найти</button>
                     </td>
                 </tr>
             </table>
         </div>
 
-        <div class="tags">
+        <div class="tags" id="tags">
             <div class="tags__inner">
                 <a class="tags__item" href="#0">World Of Tanks</a>
                 <a class="tags__item tags__item--active" href="#0">World Of Warplanes</a>
@@ -81,42 +82,50 @@
             <div class="article__content">
                 <p class="text">После введения функционала «Пожаловаться» не рассматриваются заявки, созданные в Центр поддержки пользователей о нарушении Правил игры по следующим пунктам:
                 </p>
-                <ul class="list">
-                    <li class="list__item">
-                        <div class="list__item-title"><b>1.</b> «Оскорбления и провокации»</div>
-                        <p class="list__item-text">
-                            В данный пункт входит:
-                            </br>- использование ненормативной лексики и оскорбление собеседников, применение унизительных кличек и прозвищ по расовому, национальному, религиозному либо половому признаку, а также провоцирование собеседника к их использованию;
-                            </br>- клевета, размещение заведомо ложной информации об Игре, Администрации, Модераторах или Пользователях;
-                            </br>- угрозы реальной расправы в отношенииили представителей Администрации Проекта. Все виды соглашения.
-                        </p>
+                <ol class="ol-list">
+                    <li class="ol-list__item">
+                        <div class="ol-list__item-title">«Оскорбления и провокации»</div>
+                        <p class="ol-list__item-text">В данный пункт входит:</p>
+                        <ul class="ul-list">
+                            <li class="ul-list__item">использование ненормативной лексики и оскорбление собеседников, применение унизительных кличек и прозвищ по расовому, национальному, религиозному либо половому признаку, а также провоцирование собеседника к их использованию;
+                            </li>
+                            <li class="ul-list__item">клевета, размещение заведомо ложной информации об Игре, Администрации, Модераторах или Пользователях;
+                            </li>
+                            <li class="ul-list__item">угрозы реальной расправы в отношенииили представителей Администрации Проекта. Все виды соглашения.
+                            </li>
+                        </ul>
                     </li>
-                    <li class="list__item">
-                        <div class="list__item-title"><b>2.</b> «Неинформативные сообщения»</div>
-                        <p class="list__item-text">
-                            В данный пункт входит:
-                            </br>- размещение информации (сообщения, фразы, символов и пр.), направленной на отвлечение Пользователей от темы беседы (флуд);
-                            </br>- все виды рекламных сообщений, в частности ссылки на интернет-ресурсы.
-                        </p>
+                    <li class="ol-list__item">
+                        <div class="ol-list__item-title">«Неинформативные сообщения»</div>
+                        <p class="ol-list__item-text">В данный пункт входит:</p>
+                        <ul class="ul-list">
+                            <li class="ul-list__item">размещение информации (сообщения, фразы, символов и пр.), направленной на отвлечение Пользователей от темы беседы (флуд);
+                            </li>
+                            <li class="ul-list__item">все виды рекламных сообщений, в частности ссылки на интернет-ресурсы.
+                            </li>
+                        </ul>
                     </li>
-                    <p class="text">Также не рассматриваются следующие заявки, созданные в Центр поддержки пользователей о нарушении Правил игры:</p>
-                    <li class="list__item">
-                        <div class="list__item-title"><b>3.</b> «Раскрытие позиций союзников»</div>
+                    <li class="ol-list__item">
+                        </br>
+                        <p class="text">Также не рассматриваются следующие заявки, созданные в Центр поддержки пользователей о нарушении Правил игры:</p>
+                        </br>
                     </li>
-                    <li class="list__item">
-                        <div class="list__item-title"><b>4.</b> «Выталкивание союзника»</div>
+                    <li class="ol-list__item">
+                        <div class="ol-list__item-title">«Раскрытие позиций союзников»</div>
                     </li>
-                    <li class="list__item">
-                        <div class="list__item-title"><b>5.</b> «Неспортивное поведение»</div>
+                    <li class="ol-list__item">
+                        <div class="ol-list__item-title">«Выталкивание союзника»</div>
                     </li>
-                    <li class="list__item">
-                        <div class="list__item-title"><b>6.</b> «Повреждение союзников»</div>
+                    <li class="ol-list__item">
+                        <div class="ol-list__item-title">«Неспортивное поведение»</div>
                     </li>
-                </ul>               
+                    <li class="ol-list__item">
+                        <div class="ol-list__item-title">«Повреждение союзников»</div>
+                    </li>
+                </ol>               
             </div>
         </article>
     </div>
-
     <script src="js/all.js"></script>
 </body>
 
