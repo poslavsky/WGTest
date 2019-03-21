@@ -7,19 +7,41 @@
     }
 }
 
-.list {
-    list-style: none;
+.ol-list {
+    counter-reset: myCounter;
+    margin-top: 20px;
     padding-left: 0;
     font-size: 14px;
     &__item {
-        margin-top: 6px;
+        margin-top: 5px;
+        list-style: none;
     }
     &__item-title {
         color: #4d4e53;
+        &:before {
+            counter-increment: myCounter;
+            content: counter(myCounter)". ";
+            font-weight: 700;
+        }
     }
     &__item-text {
         .text();
         text-indent: 0;
         padding-left: 15px;
+    }
+}
+
+.ul-list {
+    padding-left: 16px;
+    &__item {
+        .text();
+        margin-top: 2px;
+        text-indent: 6px;
+        list-style: none;
+        &:before {
+            content:  "-";
+            position: relative;
+            left: -5px;
+        }
     }
 }

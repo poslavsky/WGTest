@@ -7,7 +7,7 @@
         max-height: 32px;
         width: 164px;
     }  
-    &:hover {
+    &--open {
         @media @tablet {
             overflow: inherit;
             max-height: 1000px;
@@ -27,7 +27,6 @@
     &__inner {
         display: flex;
         justify-content: flex-start;
-        
         @media @tablet {
             width: 100%;
             position: absolute;
@@ -54,7 +53,6 @@
             padding: 0 9px 0 27px;
             display: none;
             margin-right: 0;
-            pointer-events: none;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -67,7 +65,6 @@
                 color: #2a2a2a;
                 background: url(/img/menu@2x.png) 8px center no-repeat;
                 background-size: 12px 10px;
-                
             }  
         }
     }
